@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="app.webmanifest" />
     <link href="/dist/output.css" rel="stylesheet" />
+    <script src="./src/app.js" type="module" defer></script>
     <title>Todo</title>
   </head>
   <body>
-    <header>
+    <header
+      class="fixed top-0 left-0 w-full p-4 flex justify-center items-center bg-slate-300"
+    >
       <h3>Things You Need To Do Today...</h3>
     </header>
+    <section id="app"></section>
   </body>
 </html>

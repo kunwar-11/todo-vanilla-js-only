@@ -1,0 +1,9 @@
+{
+  "name": "Todo",
+  "short_name": "todovanilla",
+  "display": "standalone",
+  "background_color": "#EFEFEF",
+  "start_url": "/",
+  "scope": "/",
+  "description": "Todo Applications for You."
+}
